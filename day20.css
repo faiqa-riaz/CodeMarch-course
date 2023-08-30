@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 10%;
+    padding-right: 30px;
+    background-color: #27374d;
+}
+#nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/*CSS of HERO SECTION*/
+
+#hero_section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(235, 235, 235);
+    color: #000;
+    align-items: center;
+   
+}
+#hero_section #content{
+    padding: 20px;
+    color: #050505;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+   
+}
+#hero_section p{
+    font: 15px "Helvetica Neue",sans-serif;
+    margin: 5px;
+}
+#button1{
+    background-color: rgba(0, 0, 0, 0.699);
+    font: 15px "Helvetica Neue",sans-serif;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    max-width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+@media  (max-width: 500px){
+    #header{
+        
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    #nav a{
+       text-decoration: none;
+       padding: 8px;
+    }
+} 
+
+/*CSS of SERVICES SECTION*/
+
+.flex_container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.flex_child{
+    margin: 10px;
+    width: 33.33%;
+    text-align: center;
+    padding: 25px 2px 0px 2px;
+    transform: scale(0.9 , 0.9) ;
+    font-weight: 600;
+    font: 20px "Helvetica Neue",sans-serif;
+    justify-items: space-around;
+}
+.flex_child h2{
+    margin-top: 30px;
+}
+p{
+    font: 15px "Helvetica Neue",sans-serif;
+    padding: 10px ;
+    margin: 5px;
+}
+.flex_child button {
+    background-color: #333333;
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    margin:  0px;
+  }
+  
+.flex_child button:hover {
+    opacity: 0.8;
+  }
+.flex_child img{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 15px 5px rgb(61, 91, 133);
+}
+/*CSS of CONTACT US SECTION*/
+#contact_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#right-side1{
+    width: 40%;
+    margin: 50px 15px 0px 70px;
+    background-image: url(img6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+#left-side1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#left-side1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 50px 40px 0px 15px;
+    align-items: center;
+}
+/*#right-side1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}*/
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    width:100%;
+    overflow: hidden;
+    
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form button:hover {
+    background-color: #050505;
+}
+
+/*CSS of FOOTER*/
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #3b3b3b;
+    color: #fff;
+    text-align: center;
+
+}
+#footer a{
+    text-decoration: none;
+    color: #ccc;
+    
+}

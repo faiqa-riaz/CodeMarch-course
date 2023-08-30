@@ -1,0 +1,22 @@
+header{
+    color:green;
+    background-color: #AABAB6;
+    /* Add 20px padding from left */
+    padding: 10px 10px 10px 20px ;
+    /* Add 5px margin from top and bottom*/
+    margin: 5px 0px 5px 0px;
+}
+p {
+   color:rgb(22, 22, 22); /* Color in RGB format*/
+   background-color: moccasin; 
+   padding: 30px 30px 30px 30px;
+   margin: 30px 0px 10px 0px;
+}
+div {
+    background-color: aquamarine;
+    border: solid black 2px; /*Border type solid, color black, border size 2px*/
+    height: 200px;
+    width: 200px;
+    margin: auto;
+        
+}

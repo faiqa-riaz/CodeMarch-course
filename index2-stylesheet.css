@@ -1,0 +1,39 @@
+header{
+    background-color: #3d8361;
+    align-content: center;
+}
+.icon-container {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+
+h2{
+    font: 30px  italic Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 2rem 2rem;
+}
+p{
+    font-size: 40px;
+}
+p,li{
+    font-size: 1em !important;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 3px;
+    margin: 0px 10px 0px 10px;
+}
+#div1{
+    background-color: #3d8361;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: -15px;
+}
+#div2{
+    background-color: #d6cca4;
+    padding: 20px 0px 10px 0px;
+
+}

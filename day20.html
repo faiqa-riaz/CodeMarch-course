@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day20.css">
+    <title>CSS Multiple Columns and Flexbox Model</title>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div id="hero_section">
+        <div id="content">
+            <h1>Welcome to Our Website</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia natus facilis recusandae voluptatibus beatae?</p>
+            <div id="button1">Learn More</div>
+        </div>
+    </div>
+    <div class="flex_container" id="service_section">
+        <div class="flex_child" id="part1">
+            <img src="img7.png" alt="workout">
+            <h2>Service 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="flex_child" id="part2">
+            <img src="img8.jpg" alt="workout">
+            <h2>Service 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="flex_child" id="part3">
+            <img src="img5.png" alt="workout">
+            <h2>Service 3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam.</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="contact_section">
+        <div id="right-side1">
+            
+        </div>
+        <div id="left-side1">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+                <button type="submit">Send message</button> 
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <p>
+            &copy; 2023 Codemarch. All Rights Reserved.
+            <a class="terms" href="#">Terms of Service | Privacy Policy</a>
+          </p>
+    </div>
+</body>
+</html>

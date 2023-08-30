@@ -1,0 +1,23 @@
+header{
+    color:blue ;
+    background-color: hwb(49 0% 0% / 0.966);
+    font: bold 35px serif;
+    padding: 40px 20px;
+    margin: 5px;
+}
+p{
+    color: rgb(247, 247, 247);
+    background-color: blueviolet;
+    font: 20px serif;
+    padding: 20px 10px;
+    margin: 20px 5px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: sienna solid;
+    background-color: aqua;
+    padding: 20px;
+    margin: auto;
+    
+}

@@ -1,0 +1,29 @@
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+
+}
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #3d8361;
+}
+li{
+    text-decoration: none;
+    padding-left: 20px;
+    margin: 0px;
+}
+li:hover{
+    background-color: #002b23;
+}
